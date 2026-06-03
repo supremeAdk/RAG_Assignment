@@ -82,7 +82,7 @@ Users can schedule interviews using natural language.
 
 Example:
 
-Book an interview for John Doe on June 10 at 3 PM. Email [john@example.com](mailto:john@example.com)
+Book an interview for Naruto Uzumaki on June 10 at 3 PM. Email [naruto@leafvillage.com](mailto:naruto@leafvillage.com)
 
 The system extracts:
 
