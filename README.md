@@ -18,18 +18,30 @@ The system supports:
 
 ## Architecture
 FastAPI
+
+├── Document Ingestion API
+
+│ ├── PDF/TXT Extraction
+
+│ ├── Chunking
+
+│ ├── Embedding Generation
+
+│ ├── Qdrant Storage
+
+│ └── Metadata Storage
+
 │
-├── Document Upload API
-│   ├── PDF/TXT Extraction
-│   ├── Chunking
-│   ├── Embeddings
-│   └── Qdrant Storage
-│
+
 └── Conversational RAG API
-    ├── Retrieval
-    ├── Redis Memory
-    ├── Llama3 (Ollama)
-    └── Interview Booking
+
+├── Vector Retrieval
+
+├── Redis Chat Memory
+
+├── Llama 3 Integration
+
+└── Interview Booking
 
 ## Tech Stack
 
